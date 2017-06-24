@@ -11,7 +11,7 @@ function biggest(n){
   array2.sort( (a,b)=>b-a );
 
   if(JSON.stringify(array1) === JSON.stringify(array2) ){
-	  return -1;
+	  return -1; 
   }else{
 	  return Number(array2.join(""));
   }
