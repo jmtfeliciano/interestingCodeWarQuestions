@@ -1,4 +1,5 @@
 //find the next possible larger number that can be done through rearrangement
+//for instance nextBigger(109) should return 190 because 190 is the next and immediate higher number that can be done through rearrangement
 
 function nextBigger(n){
   var array1 = n.toString().split("");
